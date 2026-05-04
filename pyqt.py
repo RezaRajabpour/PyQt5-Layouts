@@ -20,9 +20,9 @@ window_hbox.setWindowTitle(" QHBoxLayout")
 window_hbox.resize(400, 100)
 
 hbox_layout = QHBoxLayout()
-hbox_layout.addWidget(QPushButton("چپ"))
-hbox_layout.addWidget(QPushButton("وسط"))
-hbox_layout.addWidget(QPushButton("راست"))
+hbox_layout.addWidget(QPushButton("left"))
+hbox_layout.addWidget(QPushButton("middle"))
+hbox_layout.addWidget(QPushButton("right"))
 
 window_hbox.setLayout(hbox_layout)
 
@@ -31,9 +31,9 @@ window_vbox.setWindowTitle("QVBoxLayout")
 window_vbox.resize(200, 200)
 
 vbox_layout = QVBoxLayout()
-vbox_layout.addWidget(QPushButton("بالا"))
-vbox_layout.addWidget(QPushButton("وسط"))
-vbox_layout.addWidget(QPushButton("پایین"))
+vbox_layout.addWidget(QPushButton("top"))
+vbox_layout.addWidget(QPushButton("middle"))
+vbox_layout.addWidget(QPushButton("down"))
 
 window_vbox.setLayout(vbox_layout)
 
